@@ -1,0 +1,31 @@
+{
+    "name": "complex-dialog-bot",
+    "version": "1.0.0",
+    "description": "Sample code for the how to topic for creating advanced conversation flow",
+    "author": "Microsoft",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./index.js",
+        "watch": "nodemon ./index.js",
+        "lint": "eslint .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "botbuilder": "~4.5.1",
+        "@microsoft/recognizers-text-data-types-timex-expression": "1.1.4",
+        "botbuilder-dialogs": "~4.5.1",
+        "dotenv": "^8.0.0",
+        "nexmo": "^2.4.2",
+        "restify": "~8.3.3"
+    },
+    "devDependencies": {
+        "eslint": "^6.0.1",
+        "eslint-config-standard": "^13.0.1",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-node": "^9.1.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.0",
+        "nodemon": "~1.19.1"
+    }
+}
